@@ -1,0 +1,26 @@
+Project Overview  
+
+Consider yourself as one of the core developers of a reputed food aggregator platform. With a surge  in people ordering food, your team has been facing a lot of issues handling the delivery of food  orders efficiently. So far, it has all been done manually—  An order is received at a store, the store manager calls a delivery support center for a delivery boy, a  delivery boy is assigned, who then shows up and delivers the order.  With scale, the above approach is no longer feasible.  You are now entrusted to build a system that can robustly scale and manage these deliveries in an  efficient and automated manner. 
+
+The problem statement  
+Create a scalable delivery task processing system.  To help you build the system, here are some inputs that you can keep in mind:  1. Types and their attributes:  
+a. Delivery task  
+	i. Title (string)  
+	ii. Priority – can be one of ​high, medium, low  
+	iii. Creation date-time  
+	iv. Created by – reference to the person who created the task.  
+b. Store manager​ – can create delivery tasks.  
+c. Delivery person ​ – accepts and acts upon tasks.   
+
+What you’ll need to do  
+1. Provide a simple web interface for logging-in of store managers and delivery persons.  
+2. When a Store manager logs-in, he/she can:  
+	a. create a task  
+	b. view the list of past tasks and their last known state  
+	c. click on a task to see its various state transitions  
+	d. cancel a task which is not yet ​accepted  
+3. When a delivery person logs-in, he/she can:  
+	a. view any previous task that has been ​accepted​ by the current logged-in person  
+	b. decline​ any previously ​accepted​ task, which hasn’t been ​completed​ as yet.  
+	c. complete​ any previously accepted task. 
+	
